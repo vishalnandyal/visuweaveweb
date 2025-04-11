@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+# VisuWeave: Dynamic Concept Visualization Platform
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/c2eba2e8-3f93-4894-b35b-5d23d4535f7e
+**Live URL**: [https://visuweave.vercel.app](https://visuweave.vercel.app)
 
-## How can I edit this code?
+VisuWeave is an AI-powered web platform designed to transform natural speech into visually compelling and dynamically generated concepts. It combines speech-to-text, NLP, and intelligent model selection with a responsive UI for real-time interaction and visualization.
 
-There are several ways of editing your application.
+## How to Run Locally
 
-**Use Lovable**
+You can run this project locally using any preferred code editor or IDE.  
+Ensure you have **Node.js** and **npm** installed on your machine.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c2eba2e8-3f93-4894-b35b-5d23d4535f7e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Setup Steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository using the Git URL.
+git clone https://github.com/vishalnandyal/visuweaveweb.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd visuweaveweb
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install the required dependencies.
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with live preview.
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Technologies Used
+This project is built with the following tech stack:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Vite – Fast build tool for modern web projects
 
-**Use GitHub Codespaces**
+React – Frontend JavaScript library
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+TypeScript – Typed JavaScript for better maintainability
 
-## What technologies are used for this project?
+Tailwind CSS – Utility-first CSS framework
 
-This project is built with:
+shadcn/ui – Accessible and customizable UI components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c2eba2e8-3f93-4894-b35b-5d23d4535f7e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Deployment
+This project is deployed using Vercel for quick and seamless hosting.
